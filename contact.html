@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LG LAW - Contact Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="contact.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-logo">LG LAW</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Our Lawyers.html">Our Lawyers</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="nav-social">
+  <a href="#"><img src="svg/facebook.svg" alt="Facebook" width="20" height="20"/></a>
+  <a href="#"><img src="svg/instagram.svg" alt="Instagram" width="20" height="20"/></a>
+  <a href="#"><img src="svg/twitter.svg" alt="Twitter" width="20" height="20"/></a>
+</div>
+      <a href="contact.html" class="nav-book">Book Now</a>
+    </div>
+  </nav>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-page">
+
+    <!-- LEFT: Form -->
+    <div class="contact-left">
+      <h1>OUR CONTACTS</h1>
+
+      <form class="contact-form" action="https://formspree.io/f/mojrrbgd" method="POST">
+        <input type="hidden" name="_replyto" value="kurtjershon.vidal@hcdc.edu.ph"/>
+
+        <div class="form-group">
+          <label>Name</label>
+          <div class="form-row">
+            <div class="form-field">
+              <span class="field-label">First Name</span>
+              <input type="text" name="firstname"/>
+            </div>
+            <div class="form-field">
+              <span class="field-label">Last Name</span>
+              <input type="text" name="lastname"/>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" class="full-input"/>
+        </div>
+
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" name="subject" class="full-input"/>
+        </div>
+
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="send-btn">Send</button>
+
+      </form>
+    </div>
+
+    <!-- RIGHT: Map + Office Info -->
+    <div class="contact-right">
+      <h2>OUR OFFICE</h2>
+
+      <div class="map-box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.46957426637005!2d125.60726578130692!3d7.066338519639715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d0f2b98883b%3A0xe549492ad6bee756!2sNetplay%20Inc.%20(Davao%20Branch)!5e0!3m2!1sen!2sph!4v1778510893805!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-placeholder">
+          <span>Google Maps Embed Goes Here</span>
+        </div>
+      </div>
+
+      <p class="office-tag">#LG LAW FIRM (NetPlay Inc)</p>
+
+      <div class="office-info">
+        <p class="office-address">
+          Room 2, Maxwell Bldg. (formerly Torre<br/>
+          Bldg.) Anda Street, Davao City
+        </p>
+        <p class="office-hours">Hours: Mon-Fri: 8AM-12PM &amp; 2PM - 5PM</p>
+        <p class="office-phone">&#9742; &nbsp; 2 2 7 - 6 8 3 6</p>
+        <p class="office-email">&#9993; &nbsp; lglaw335@gmail.com</p>
+        <p class="office-email">&#9993; &nbsp; lglaw@rocketmail.com</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo">LG LAW</div>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <address>
+          Room 2, Maxwell Bldg. (formerly Torre Bldg.)<br/>
+          Anda Street, Davao City<br/><br/>
+          lglaw335@gmail.com<br/>
+          lglaw@rocketmail.com
+        </address>
+      </div>
+      <div class="footer-col">
+        <h4>Our Company</h4>
+        <ul>
+          <li><a href="about.html">Who We Are</a></li>
+          <li><a href="Our Lawyers.html">Our Lawyers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; Copyright 2026 LG LAW
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>
